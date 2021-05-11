@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { PictureBoxComponent } from './picture-box/picture-box.component';
 import { HttpClientModule } from '@angular/common/http';
+import { TestPageComponent } from './test-page/test-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
-    PictureBoxComponent
+    PictureBoxComponent,
+    TestPageComponent
   ],
   imports: [
     BrowserModule,
